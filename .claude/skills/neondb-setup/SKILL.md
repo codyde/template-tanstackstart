@@ -83,6 +83,7 @@ Provision a NeonDB serverless PostgreSQL database and configure Drizzle ORM.
 
 ## Important
 
+- Carefully review the project and ensure that the schema.ts file created actually matches the needed schema in the project
 - Database expires in 72 hours unless claimed
 - Claim URL is shown in CLI output and saved to `.env` - inform the user to save it
 - Ensure `.env` is in `.gitignore`
